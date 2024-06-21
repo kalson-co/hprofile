@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java_vesrion: '11'
+          java-vesrion: '11'
 
   #setup sonar scanner
       - name: Setup SonarQube
