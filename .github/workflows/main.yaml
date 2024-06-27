@@ -1,10 +1,10 @@
 name: Hprofile Actions
 on: workflow_dispatch
 env:
-  AWS_REGION: awslinux2023
+  AWS_REGION: eu-central-1
 jobs: 
   Testing:
-    runs-on: ubuntu-latest
+    runs-on: awslinux2023
     steps: 
       - name: code checkout
         uses: actions/checkout@v4
